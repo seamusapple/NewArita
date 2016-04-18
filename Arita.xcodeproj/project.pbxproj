@@ -12,6 +12,7 @@
 		81FBB1681CC472BB009F61C2 /* UserHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1671CC472BB009F61C2 /* UserHomeController.swift */; };
 		81FBB16A1CC4779C009F61C2 /* FontConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1691CC4779C009F61C2 /* FontConst.swift */; };
 		81FBB16C1CC477AD009F61C2 /* TextConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB16B1CC477AD009F61C2 /* TextConst.swift */; };
+		81FBB1731CC47D8B009F61C2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1721CC47D8B009F61C2 /* File.swift */; };
 		91777192CD185CD166D02A09 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31AC0804AA7C02161F50F62 /* Pods.framework */; };
 		FDAE73CA1CC0C2820015C7A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73C91CC0C2820015C7A0 /* AppDelegate.swift */; };
 		FDAE73CC1CC0C2820015C7A0 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73CB1CC0C2820015C7A0 /* RootController.swift */; };
@@ -43,6 +44,7 @@
 		81FBB1671CC472BB009F61C2 /* UserHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomeController.swift; sourceTree = "<group>"; };
 		81FBB1691CC4779C009F61C2 /* FontConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConst.swift; sourceTree = "<group>"; };
 		81FBB16B1CC477AD009F61C2 /* TextConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextConst.swift; sourceTree = "<group>"; };
+		81FBB1721CC47D8B009F61C2 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		B31AC0804AA7C02161F50F62 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAE73C61CC0C2820015C7A0 /* Arita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAE73C91CC0C2820015C7A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Arita/AppDelegate/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
@@ -136,6 +138,14 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		81FBB1711CC47D4D009F61C2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				81FBB1721CC47D8B009F61C2 /* File.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		E665849187FE8CD215099C68 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +221,7 @@
 				81FBB16E1CC47C59009F61C2 /* Article */,
 				81FBB16F1CC47C6B009F61C2 /* Good */,
 				81FBB1701CC47C73009F61C2 /* User */,
+				81FBB1711CC47D4D009F61C2 /* Common */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -426,6 +437,7 @@
 				81FBB16C1CC477AD009F61C2 /* TextConst.swift in Sources */,
 				81FBB16A1CC4779C009F61C2 /* FontConst.swift in Sources */,
 				FDAE73E91CC0D6E50015C7A0 /* File3.swift in Sources */,
+				81FBB1731CC47D8B009F61C2 /* File.swift in Sources */,
 				FDAE73EB1CC0D6F20015C7A0 /* File4.swift in Sources */,
 				FDAE74061CC0D8020015C7A0 /* DLTabedSlideView.m in Sources */,
 				FDAE74031CC0D8020015C7A0 /* DLSlideView.m in Sources */,
