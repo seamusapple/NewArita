@@ -104,6 +104,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		81FBB16D1CC47C44009F61C2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FDAE73CB1CC0C2820015C7A0 /* RootController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		81FBB16E1CC47C59009F61C2 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				81FBB1631CC4723A009F61C2 /* ArticleHomeController.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		81FBB16F1CC47C6B009F61C2 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				81FBB1651CC47288009F61C2 /* GoodHomeController.swift */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		81FBB1701CC47C73009F61C2 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				81FBB1671CC472BB009F61C2 /* UserHomeController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		E665849187FE8CD215099C68 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,10 +207,10 @@
 		FDAE73DE1CC0D4320015C7A0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FDAE73CB1CC0C2820015C7A0 /* RootController.swift */,
-				81FBB1631CC4723A009F61C2 /* ArticleHomeController.swift */,
-				81FBB1651CC47288009F61C2 /* GoodHomeController.swift */,
-				81FBB1671CC472BB009F61C2 /* UserHomeController.swift */,
+				81FBB16D1CC47C44009F61C2 /* Root */,
+				81FBB16E1CC47C59009F61C2 /* Article */,
+				81FBB16F1CC47C6B009F61C2 /* Good */,
+				81FBB1701CC47C73009F61C2 /* User */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
