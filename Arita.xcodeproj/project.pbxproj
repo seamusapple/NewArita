@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81FBB1641CC4723A009F61C2 /* ArticleHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1631CC4723A009F61C2 /* ArticleHomeController.swift */; };
+		81FBB1661CC47288009F61C2 /* GoodHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1651CC47288009F61C2 /* GoodHomeController.swift */; };
+		81FBB1681CC472BB009F61C2 /* UserHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1671CC472BB009F61C2 /* UserHomeController.swift */; };
+		81FBB16A1CC4779C009F61C2 /* FontConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1691CC4779C009F61C2 /* FontConst.swift */; };
+		81FBB16C1CC477AD009F61C2 /* TextConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB16B1CC477AD009F61C2 /* TextConst.swift */; };
 		91777192CD185CD166D02A09 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31AC0804AA7C02161F50F62 /* Pods.framework */; };
 		FDAE73CA1CC0C2820015C7A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73C91CC0C2820015C7A0 /* AppDelegate.swift */; };
-		FDAE73CC1CC0C2820015C7A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73CB1CC0C2820015C7A0 /* ViewController.swift */; };
+		FDAE73CC1CC0C2820015C7A0 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73CB1CC0C2820015C7A0 /* RootController.swift */; };
 		FDAE73CF1CC0C2820015C7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAE73CD1CC0C2820015C7A0 /* Main.storyboard */; };
 		FDAE73D11CC0C2820015C7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAE73D01CC0C2820015C7A0 /* Assets.xcassets */; };
 		FDAE73D41CC0C2820015C7A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAE73D21CC0C2820015C7A0 /* LaunchScreen.storyboard */; };
@@ -17,7 +22,7 @@
 		FDAE73E71CC0D6760015C7A0 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73E61CC0D6760015C7A0 /* File2.swift */; };
 		FDAE73E91CC0D6E50015C7A0 /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73E81CC0D6E50015C7A0 /* File3.swift */; };
 		FDAE73EB1CC0D6F20015C7A0 /* File4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73EA1CC0D6F20015C7A0 /* File4.swift */; };
-		FDAE73ED1CC0D6FD0015C7A0 /* File5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73EC1CC0D6FD0015C7A0 /* File5.swift */; };
+		FDAE73ED1CC0D6FD0015C7A0 /* ColorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73EC1CC0D6FD0015C7A0 /* ColorConst.swift */; };
 		FDAE74011CC0D8020015C7A0 /* DLLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73F21CC0D8020015C7A0 /* DLLRUCache.m */; };
 		FDAE74021CC0D8020015C7A0 /* DLCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73F41CC0D8020015C7A0 /* DLCustomSlideView.m */; };
 		FDAE74031CC0D8020015C7A0 /* DLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73F61CC0D8020015C7A0 /* DLSlideView.m */; };
@@ -33,10 +38,15 @@
 /* Begin PBXFileReference section */
 		314C33ADA6AF6CF840EC04BB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5DDDFBA2467FE3BCFEA10712 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		81FBB1631CC4723A009F61C2 /* ArticleHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleHomeController.swift; sourceTree = "<group>"; };
+		81FBB1651CC47288009F61C2 /* GoodHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodHomeController.swift; sourceTree = "<group>"; };
+		81FBB1671CC472BB009F61C2 /* UserHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomeController.swift; sourceTree = "<group>"; };
+		81FBB1691CC4779C009F61C2 /* FontConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConst.swift; sourceTree = "<group>"; };
+		81FBB16B1CC477AD009F61C2 /* TextConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextConst.swift; sourceTree = "<group>"; };
 		B31AC0804AA7C02161F50F62 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAE73C61CC0C2820015C7A0 /* Arita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAE73C91CC0C2820015C7A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Arita/AppDelegate/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		FDAE73CB1CC0C2820015C7A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDAE73CB1CC0C2820015C7A0 /* RootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
 		FDAE73CE1CC0C2820015C7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDAE73D01CC0C2820015C7A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDAE73D31CC0C2820015C7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,7 +55,7 @@
 		FDAE73E61CC0D6760015C7A0 /* File2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		FDAE73E81CC0D6E50015C7A0 /* File3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
 		FDAE73EA1CC0D6F20015C7A0 /* File4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File4.swift; sourceTree = "<group>"; };
-		FDAE73EC1CC0D6FD0015C7A0 /* File5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File5.swift; sourceTree = "<group>"; };
+		FDAE73EC1CC0D6FD0015C7A0 /* ColorConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConst.swift; sourceTree = "<group>"; };
 		FDAE73F01CC0D8020015C7A0 /* DLCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCacheProtocol.h; sourceTree = "<group>"; };
 		FDAE73F11CC0D8020015C7A0 /* DLLRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLRUCache.h; sourceTree = "<group>"; };
 		FDAE73F21CC0D8020015C7A0 /* DLLRUCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLRUCache.m; sourceTree = "<group>"; };
@@ -165,7 +175,10 @@
 		FDAE73DE1CC0D4320015C7A0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FDAE73CB1CC0C2820015C7A0 /* ViewController.swift */,
+				FDAE73CB1CC0C2820015C7A0 /* RootController.swift */,
+				81FBB1631CC4723A009F61C2 /* ArticleHomeController.swift */,
+				81FBB1651CC47288009F61C2 /* GoodHomeController.swift */,
+				81FBB1671CC472BB009F61C2 /* UserHomeController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,7 +202,9 @@
 		FDAE73E11CC0D4590015C7A0 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				FDAE73EC1CC0D6FD0015C7A0 /* File5.swift */,
+				81FBB16B1CC477AD009F61C2 /* TextConst.swift */,
+				81FBB1691CC4779C009F61C2 /* FontConst.swift */,
+				FDAE73EC1CC0D6FD0015C7A0 /* ColorConst.swift */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -374,17 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FBB1681CC472BB009F61C2 /* UserHomeController.swift in Sources */,
 				FDAE74041CC0D8020015C7A0 /* DLFixedTabbarView.m in Sources */,
+				81FBB16C1CC477AD009F61C2 /* TextConst.swift in Sources */,
+				81FBB16A1CC4779C009F61C2 /* FontConst.swift in Sources */,
 				FDAE73E91CC0D6E50015C7A0 /* File3.swift in Sources */,
 				FDAE73EB1CC0D6F20015C7A0 /* File4.swift in Sources */,
 				FDAE74061CC0D8020015C7A0 /* DLTabedSlideView.m in Sources */,
 				FDAE74031CC0D8020015C7A0 /* DLSlideView.m in Sources */,
-				FDAE73ED1CC0D6FD0015C7A0 /* File5.swift in Sources */,
+				FDAE73ED1CC0D6FD0015C7A0 /* ColorConst.swift in Sources */,
+				81FBB1641CC4723A009F61C2 /* ArticleHomeController.swift in Sources */,
 				FDAE74071CC0D8020015C7A0 /* DLUtility.m in Sources */,
 				FDAE74051CC0D8020015C7A0 /* DLScrollTabbarView.m in Sources */,
-				FDAE73CC1CC0C2820015C7A0 /* ViewController.swift in Sources */,
+				FDAE73CC1CC0C2820015C7A0 /* RootController.swift in Sources */,
 				FDAE74021CC0D8020015C7A0 /* DLCustomSlideView.m in Sources */,
 				FDAE73E71CC0D6760015C7A0 /* File2.swift in Sources */,
+				81FBB1661CC47288009F61C2 /* GoodHomeController.swift in Sources */,
 				FDAE73E51CC0D64E0015C7A0 /* File1.swift in Sources */,
 				FDAE74011CC0D8020015C7A0 /* DLLRUCache.m in Sources */,
 				FDAE73CA1CC0C2820015C7A0 /* AppDelegate.swift in Sources */,
