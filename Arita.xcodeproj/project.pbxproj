@@ -12,7 +12,7 @@
 		81FBB1681CC472BB009F61C2 /* UserHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1671CC472BB009F61C2 /* UserHomeController.swift */; };
 		81FBB16A1CC4779C009F61C2 /* FontConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1691CC4779C009F61C2 /* FontConst.swift */; };
 		81FBB16C1CC477AD009F61C2 /* TextConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB16B1CC477AD009F61C2 /* TextConst.swift */; };
-		81FBB1731CC47D8B009F61C2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1721CC47D8B009F61C2 /* File.swift */; };
+		81FBB1751CC4D30D009F61C2 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB1741CC4D30D009F61C2 /* BaseController.swift */; };
 		91777192CD185CD166D02A09 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31AC0804AA7C02161F50F62 /* Pods.framework */; };
 		C18A90311CC4CD2F00775B2B /* HomeCyAndShCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A90301CC4CD2F00775B2B /* HomeCyAndShCell.swift */; };
 		C18A90331CC4CD3F00775B2B /* HomeSjCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A90321CC4CD3F00775B2B /* HomeSjCell.swift */; };
@@ -25,7 +25,7 @@
 		FDAE73E51CC0D64E0015C7A0 /* File1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73E41CC0D64E0015C7A0 /* File1.swift */; };
 		FDAE73E71CC0D6760015C7A0 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73E61CC0D6760015C7A0 /* File2.swift */; };
 		FDAE73E91CC0D6E50015C7A0 /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73E81CC0D6E50015C7A0 /* File3.swift */; };
-		FDAE73EB1CC0D6F20015C7A0 /* File4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73EA1CC0D6F20015C7A0 /* File4.swift */; };
+		FDAE73EB1CC0D6F20015C7A0 /* GlobalSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73EA1CC0D6F20015C7A0 /* GlobalSetting.swift */; };
 		FDAE73ED1CC0D6FD0015C7A0 /* ColorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73EC1CC0D6FD0015C7A0 /* ColorConst.swift */; };
 		FDAE74011CC0D8020015C7A0 /* DLLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73F21CC0D8020015C7A0 /* DLLRUCache.m */; };
 		FDAE74021CC0D8020015C7A0 /* DLCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAE73F41CC0D8020015C7A0 /* DLCustomSlideView.m */; };
@@ -47,7 +47,7 @@
 		81FBB1671CC472BB009F61C2 /* UserHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomeController.swift; sourceTree = "<group>"; };
 		81FBB1691CC4779C009F61C2 /* FontConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConst.swift; sourceTree = "<group>"; };
 		81FBB16B1CC477AD009F61C2 /* TextConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextConst.swift; sourceTree = "<group>"; };
-		81FBB1721CC47D8B009F61C2 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		81FBB1741CC4D30D009F61C2 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		B31AC0804AA7C02161F50F62 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18A90301CC4CD2F00775B2B /* HomeCyAndShCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCyAndShCell.swift; sourceTree = "<group>"; };
 		C18A90321CC4CD3F00775B2B /* HomeSjCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSjCell.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		FDAE73E41CC0D64E0015C7A0 /* File1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File1.swift; sourceTree = "<group>"; };
 		FDAE73E61CC0D6760015C7A0 /* File2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		FDAE73E81CC0D6E50015C7A0 /* File3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
-		FDAE73EA1CC0D6F20015C7A0 /* File4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File4.swift; sourceTree = "<group>"; };
+		FDAE73EA1CC0D6F20015C7A0 /* GlobalSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalSetting.swift; sourceTree = "<group>"; };
 		FDAE73EC1CC0D6FD0015C7A0 /* ColorConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConst.swift; sourceTree = "<group>"; };
 		FDAE73F01CC0D8020015C7A0 /* DLCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCacheProtocol.h; sourceTree = "<group>"; };
 		FDAE73F11CC0D8020015C7A0 /* DLLRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLRUCache.h; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		81FBB1711CC47D4D009F61C2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				81FBB1721CC47D8B009F61C2 /* File.swift */,
+				81FBB1741CC4D30D009F61C2 /* BaseController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 		FDAE73E01CC0D4470015C7A0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				FDAE73EA1CC0D6F20015C7A0 /* File4.swift */,
+				FDAE73EA1CC0D6F20015C7A0 /* GlobalSetting.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -451,12 +451,17 @@
 			files = (
 				81FBB1681CC472BB009F61C2 /* UserHomeController.swift in Sources */,
 				FDAE74041CC0D8020015C7A0 /* DLFixedTabbarView.m in Sources */,
+				81FBB1751CC4D30D009F61C2 /* BaseController.swift in Sources */,
 				81FBB16C1CC477AD009F61C2 /* TextConst.swift in Sources */,
 				81FBB16A1CC4779C009F61C2 /* FontConst.swift in Sources */,
 				FDAE73E91CC0D6E50015C7A0 /* File3.swift in Sources */,
+<<<<<<< HEAD
 				C18A90331CC4CD3F00775B2B /* HomeSjCell.swift in Sources */,
 				81FBB1731CC47D8B009F61C2 /* File.swift in Sources */,
 				FDAE73EB1CC0D6F20015C7A0 /* File4.swift in Sources */,
+=======
+				FDAE73EB1CC0D6F20015C7A0 /* GlobalSetting.swift in Sources */,
+>>>>>>> HyperBunny/master
 				FDAE74061CC0D8020015C7A0 /* DLTabedSlideView.m in Sources */,
 				FDAE74031CC0D8020015C7A0 /* DLSlideView.m in Sources */,
 				C18A90351CC4CE7F00775B2B /* HomeTataCell.swift in Sources */,

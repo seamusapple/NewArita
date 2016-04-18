@@ -24,7 +24,8 @@ class RootController: UITabBarController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        print("RootController receive a memory warning.")
     }
     
     // MARK: - setup page subviews
@@ -44,19 +45,19 @@ class RootController: UITabBarController {
         let userItem = tabBar.items![2]
         
         let color = UIColor.blackColor()
-        let font = UIFont.systemFontOfSize(CGFloat(kTabBarFont))
+        let font = UIFont.systemFontOfSize(Font.tabBarFont)
         let attributes = [
             NSForegroundColorAttributeName : color,
             NSFontAttributeName : font
         ]
         
-        articleItem.title = kTabBarItem1
+        articleItem.title = TextStr.tabBarItem1
         articleItem.setTitleTextAttributes(attributes , forState: UIControlState.Selected)
         
-        goodItem.title = kTabBarItem2
+        goodItem.title = TextStr.tabBarItem2
         goodItem.setTitleTextAttributes(attributes, forState: UIControlState.Selected)
         
-        userItem.title = kTabBarItem3
+        userItem.title = TextStr.tabBarItem3
         userItem.setTitleTextAttributes(attributes, forState: UIControlState.Selected)
     }
 }

@@ -8,4 +8,5 @@
 
 import Foundation
 
-// 占位
+class GlobalSetting {
+}

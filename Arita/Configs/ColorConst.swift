@@ -13,3 +13,6 @@ import Foundation
  *  用于放置所有颜色相关的常量
  *
  */
+
+struct Color {
+}
