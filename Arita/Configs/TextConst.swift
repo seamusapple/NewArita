@@ -19,3 +19,6 @@ import Foundation
 let kTabBarItem1 = "首页"
 let kTabBarItem2 = "良品"
 let kTabBarItem3 = "我的"
+
+
+

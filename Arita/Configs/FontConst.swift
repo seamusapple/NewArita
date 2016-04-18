@@ -16,3 +16,6 @@ import Foundation
 
 //MARK:- TabBar
 let kTabBarFont = 20.0
+
+//MARK: - 标题字号
+let FONT_TITLE = UIFont.systemFontOfSize(17)

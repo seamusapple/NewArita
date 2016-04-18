@@ -38,7 +38,7 @@ class RootController: UITabBarController {
     func setTabBarItem() {
         tabBar.barTintColor = UIColor.whiteColor()
         tabBar.translucent = false
-        
+    
         let articleItem = tabBar.items![0]
         let goodItem = tabBar.items![1]
         let userItem = tabBar.items![2]
